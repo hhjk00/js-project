@@ -1,0 +1,12 @@
+.title {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.date {
+  font-size: 13px;
+}
+
+.content {
+  border-top: 1px solid #e5e5e5;
+}
