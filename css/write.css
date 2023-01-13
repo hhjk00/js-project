@@ -60,16 +60,15 @@ button {
   border: none;
   border-radius: 10px;
   padding: 5px;
+  cursor: pointer;
 }
 
 .cancel {
   background-color: #eeeeee;
   margin-right: 10px;
-  cursor: pointer;
 }
 
 .submit {
   background-color: #4d89dc;
   color: white;
-  cursor: pointer;
 }

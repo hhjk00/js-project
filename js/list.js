@@ -1,8 +1,7 @@
 const data = JSON.parse(localStorage.getItem('post'))
 
-
 $(document).ready(function() {
-  for(let i = 0; i < data.length; i++) {
+  for(let i = 0; i < data?.length; i++) {
 
     $('.listWrapper').append(
       '<div class="listItem">' + 
@@ -16,18 +15,10 @@ $(document).ready(function() {
       '</div>'
     )
   }
-
-
-
-
 })
 
 $('.listWrapper').on('click', '.id', function(e) {
-  const detailId = $(e.target).text()
+  const detailId = $(e.target).text() 
   localStorage.setItem('detail', detailId)
   location.href = "../html/detail.html"
-})
-
-$('.goWrite').click(function() {
-  location.href = "../html/write.html";
 })
