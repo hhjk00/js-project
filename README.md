@@ -22,7 +22,8 @@ Toast UI Editor와 localStorage를 활용하여 나만의 블로그를 제작했
 
 헤더의 펜 아이콘을 클릭해 글을 작성합니다. <br>
 Toast UI를 활용하여 Markdown으로 글을 작성합니다. <br>
-조회 시 작성 화면처럼 Markdown이 적용되어 나타납니다.
+조회 시 작성 화면처럼 Markdown이 적용되어 나타납니다. <br>
+작성 된 글은 localStorage에 저장됩니다.
 
 <br>
 
@@ -31,10 +32,13 @@ Toast UI를 활용하여 Markdown으로 글을 작성합니다. <br>
 
 수정 화면은 작성한 화면이 그대로 출력되는 Wysiwyg으로 나타납니다. <br>
 우측 하단 탭으로 Markdown 편집도 가능합니다.
+수정 된 글은 저장된 위치에 덮어씌워집니다.
 
 <br>
 
 # ✏️ 관리 페이지
 ![관리](https://user-images.githubusercontent.com/97223653/212445783-a235e82a-9b99-40cb-bcf7-261dc9fea62c.gif)
 
-블로그 이름을 변경하여 화면 중앙의 글자를 바꿀 수 있으며, 전체 글 삭제도 가능합니다.
+변경된 블로그 이름을 localStorage에 저장하여 불러옵니다. <br>
+변경 시 화면 중앙의 글자가 바뀌며, 전체 글 삭제도 가능합니다.
+
