@@ -9,7 +9,7 @@ Toast UI Editor와 localStorage를 활용하여 나만의 블로그를 제작했
 
 <br>
 
-# 화면 시연
+# 💻 화면 시연
 ## ✏️ 글 목록
 ![목록](https://user-images.githubusercontent.com/97223653/212445773-c12d8052-e5ad-48d2-baa8-5c06495c24cd.gif)
 
