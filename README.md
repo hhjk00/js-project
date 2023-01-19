@@ -2,6 +2,8 @@
 > HTML, CSS, Javascript 공부를 위해 진행한 프로젝트입니다. <br>
 Toast UI Editor와 localStorage를 활용하여 나만의 블로그를 제작했습니다. <br>
 
+- 개발 기간 : 2022.11.08 ~ 2022.11.13
+
 <br>
 
 # 🌐 배포 링크
